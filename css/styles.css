@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-image: radial-gradient(circle, #406295, #374a6f, #2b334b, #1c1e2a, #070708);
 }
@@ -11,7 +11,7 @@ body {
 
 .offcanvas-end {
     width: 250px !important;
-    background-color: rgba(223, 224, 228, 0);
+    background-color: rgba(32, 33, 37, 0.36);
 }
 
 .navbar-toggler:focus {
@@ -27,6 +27,71 @@ body {
     border-bottom: 1px solid white;
 }
 
-.mobile-nav, .socials-mobile, .icon, .offcanvas-body, .butterfly-icon, .socials-icon, .tabs, .butterfly-icon .navbar-brand, .socials-icon .navbar-brand{
+/* hero */
+.hero-content {
+    box-shadow: 1px 8px 10px 10px rgba(0,0,0,0.4);
+}
+
+.intro-title {
+    font-weight: bold;
+}
+
+.project-btn {
+    border: 1px solid white;
+}
+
+.project-btn:hover {
+    background-color:#374a6f;
+    border: 1px solid #374a6f;
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+}
+
+.contact-btn {
+    color: #374a6f;
+}
+
+.contact-btn:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+}
+
+/* about */
+.about-title {
+    font-size: 30px;
+}
+
+/* Desktop view */
+@media (min-width:991px) {
+    /* hero */
+    .profile-pic img {
+        width: 250px;
+    }
+
+    .hero-content {
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+    }
+
+    /* about */
+    .about-title {
+        font-size: 40px !important;
+    }
+}
+
+/* mobile view */
+@media (max-width:767px) {
+    .about-description {
+        width: 100% !important;
+    }
+}
+
+/* smaller mobile view (ip 14pm) */
+@media (max-width: 480px) {
+    .contact-btn {
+        margin-right: 3px !important;
+    }
+}
+
+.about-me {
     /* border: 1px solid white; */
 }
+

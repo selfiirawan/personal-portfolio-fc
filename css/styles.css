@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: radial-gradient(circle, #406295, #374a6f, #2b334b, #1c1e2a, #070708);
+}
+
+/* navbar */
+.icon {
+    color: white;
+}
+
+.offcanvas-end {
+    width: 250px !important;
+    background-color: rgba(223, 224, 228, 0);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.mobile-nav {
+    color: white;
+}
+
+.mobile-nav a:hover {
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+
+.mobile-nav, .socials-mobile, .icon, .offcanvas-body, .butterfly-icon, .socials-icon, .tabs, .butterfly-icon .navbar-brand, .socials-icon .navbar-brand{
+    /* border: 1px solid white; */
+}

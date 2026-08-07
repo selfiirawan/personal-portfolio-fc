@@ -5,6 +5,10 @@ body {
 }
 
 /* navbar */
+.navbar {
+    background-color: #1c1e2a;
+}
+
 .icon {
     color: white;
 }
@@ -55,8 +59,23 @@ body {
 }
 
 /* about */
-.about-title {
+.about-title, .tech-title {
     font-size: 30px;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.tech-icon {
+    box-shadow: 1px 8px 10px 10px rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    /* border: 1px solid; */
+}
+
+.express, .github {
+    background-color: rgba(255, 255, 255, 0.904);
 }
 
 /* Desktop view */
@@ -72,8 +91,14 @@ body {
     }
 
     /* about */
-    .about-title {
+    .about-title, .tech-title {
         font-size: 40px !important;
+    }
+
+    .about-description {
+        width: 75%;
+        margin: 0 auto;
+        line-height: 25px;
     }
 }
 
@@ -90,8 +115,3 @@ body {
         margin-right: 3px !important;
     }
 }
-
-.about-me {
-    /* border: 1px solid white; */
-}
-

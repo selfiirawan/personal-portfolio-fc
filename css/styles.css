@@ -76,7 +76,6 @@ h3 {
     box-shadow: 1px 8px 10px 10px rgba(0,0,0,0.2);
     background-color: rgba(0,0,0,0.5);
     border-radius: 5px;
-    /* border: 1px solid; */
 }
 
 .express, .github, .django {
@@ -85,7 +84,6 @@ h3 {
 
 /* project */
 #project .container {
-    /* border: 1px solid white; */
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
     box-shadow: 1px 8px 10px 10px rgba(0,0,0,0.4);
@@ -96,7 +94,6 @@ h3 {
     transition: transform 0.3s ease;
     background-color: transparent;
     color: white;
-    /* border: 1px solid white; */
 }
 
 #project .card:hover {
@@ -118,10 +115,6 @@ h3 {
 }
 
 /* certificates */
-#certificates .container {
-    /* border: 1px solid white; */
-}
-
 #certificates .card {
     transition: transform 0.3s ease;
     background-color: transparent;
@@ -138,10 +131,19 @@ h3 {
 }
 
 .card-detail p {
-    /* border: 1px solid white; */
     margin: 0;
     padding: 0;
     font-size: 11px;
+}
+
+.cert-btn {
+    color: #1c1e2a;
+    width: 30%;
+}
+
+.cert-btn:hover {
+    background-color: #1c1e2a;
+    color: white;
 }
 
 /* Desktop view */
@@ -183,6 +185,11 @@ h3 {
     #certificates .btn {
         width: 20%;
     }
+
+    /* contact */
+    #contact h2 {
+        font-size: 45px !important;
+    }
 }
 
 /* mobile view */
@@ -199,12 +206,36 @@ h3 {
     }
 }
 
-.cert-btn {
-    color: #1c1e2a;
-    width: 30%;
+/* contact */
+#contact .container, #contact .col, .form-floating, form, .content {
+    /* border: 1px solid white; */
 }
 
-.cert-btn:hover {
+#contact .col {
+}
+
+#contact h2 {
+    font-size: 35px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.socials-icon p {
+    margin: 15px 0;
+}
+
+form {
+    max-width: 500px;
     background-color: #1c1e2a;
-    color: white;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+form input, form textarea {
+    background-color: transparent !important;
+}
+
+form label {
+    color: white !important;
 }

@@ -4,6 +4,11 @@ body {
     background-image: radial-gradient(circle, #406295, #374a6f, #2b334b, #1c1e2a, #070708);
 }
 
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
 /* navbar */
 .navbar {
     background-color: #1c1e2a;
@@ -59,10 +64,6 @@ body {
 }
 
 /* about */
-.about-title, .tech-title {
-    font-size: 30px;
-}
-
 .about-me {
     text-align: center;
 }
@@ -80,6 +81,9 @@ body {
 
 /* Desktop view */
 @media (min-width:991px) {
+    h3 {
+        font-size: 40px !important;
+    }
     /* hero */
     .profile-pic img {
         width: 250px;
@@ -91,10 +95,6 @@ body {
     }
 
     /* about */
-    .about-title, .tech-title {
-        font-size: 40px !important;
-    }
-
     .about-description {
         width: 75%;
         margin: 0 auto;
@@ -114,4 +114,21 @@ body {
     .contact-btn {
         margin-right: 3px !important;
     }
+}
+
+/* project */
+#project .container {
+    /* border: 1px solid white; */
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow: 1px 8px 10px 10px rgba(0,0,0,0.4);
+    border: 1px solid #1c1e2a;
+}
+
+#project .card {
+    transition: transform 0.3s ease;
+}
+
+#project .card:hover {
+    transform: translateY(-6px);
 }

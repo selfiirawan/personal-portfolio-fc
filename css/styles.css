@@ -68,6 +68,10 @@ h3 {
     text-align: center;
 }
 
+.about-description {
+    text-align: left;
+}
+
 .tech-icon {
     box-shadow: 1px 8px 10px 10px rgba(0,0,0,0.2);
     background-color: rgba(0,0,0,0.5);
@@ -75,8 +79,69 @@ h3 {
     /* border: 1px solid; */
 }
 
-.express, .github {
+.express, .github, .django {
     background-color: rgba(255, 255, 255, 0.904);
+}
+
+/* project */
+#project .container {
+    /* border: 1px solid white; */
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow: 1px 8px 10px 10px rgba(0,0,0,0.4);
+    border: 1px solid #1c1e2a;
+}
+
+#project .card {
+    transition: transform 0.3s ease;
+    background-color: transparent;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+#project .card:hover {
+    transform: translateY(-6px);
+}
+
+.project-tech p {
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 11px;
+    padding: 5px;
+    margin-right: 4px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#project .card-text {
+    margin-bottom: 40px;
+}
+
+/* certificates */
+#certificates .container {
+    /* border: 1px solid white; */
+}
+
+#certificates .card {
+    transition: transform 0.3s ease;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+#certificates .card:hover {
+    transform: translateY(-6px);
+}
+
+#certificates .card-title {
+    font-size: 13px;
+}
+
+.card-detail p {
+    /* border: 1px solid white; */
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
 }
 
 /* Desktop view */
@@ -100,6 +165,24 @@ h3 {
         margin: 0 auto;
         line-height: 25px;
     }
+
+    /* project */
+    .project-tech p {
+        font-size: 10px;
+    }
+
+    /* certificates */
+    .card-detail p {
+        font-size: 13px !important;
+    }
+
+    #certificates .card-title {
+    font-size: 15px !important;
+    }
+
+    #certificates .btn {
+        width: 20%;
+    }
 }
 
 /* mobile view */
@@ -116,19 +199,12 @@ h3 {
     }
 }
 
-/* project */
-#project .container {
-    /* border: 1px solid white; */
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 10px;
-    box-shadow: 1px 8px 10px 10px rgba(0,0,0,0.4);
-    border: 1px solid #1c1e2a;
+.cert-btn {
+    color: #1c1e2a;
+    width: 30%;
 }
 
-#project .card {
-    transition: transform 0.3s ease;
-}
-
-#project .card:hover {
-    transform: translateY(-6px);
+.cert-btn:hover {
+    background-color: #1c1e2a;
+    color: white;
 }

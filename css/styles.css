@@ -9,6 +9,10 @@ h3 {
     text-align: center;
 }
 
+hr {
+    border: 1px solid white;
+}
+
 /* navbar */
 .navbar {
     background-color: #1c1e2a;
@@ -146,8 +150,55 @@ h3 {
     color: white;
 }
 
+/* contact */
+#contact .container, #contact .col, .form-floating, form, .content {
+    /* border: 1px solid white; */
+}
+
+#contact .col {
+}
+
+#contact h2 {
+    font-size: 35px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.socials-icon p {
+    margin: 15px 0;
+}
+
+form {
+    max-width: 500px;
+    background-color: #1c1e2a;
+}
+
+form input, form textarea {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+form label {
+    color: gray !important;
+}
+
+.send-btn {
+    color: #374a6f;
+    background-color: white;
+}
+
+.send-btn:hover {
+    border: 1px solid white;
+}
+
+/* footer */
+footer {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
 /* Desktop view */
-@media (min-width:991px) {
+@media (min-width: 991px) {
     h3 {
         font-size: 40px !important;
     }
@@ -206,36 +257,3 @@ h3 {
     }
 }
 
-/* contact */
-#contact .container, #contact .col, .form-floating, form, .content {
-    /* border: 1px solid white; */
-}
-
-#contact .col {
-}
-
-#contact h2 {
-    font-size: 35px;
-    font-family: "Playfair Display", sans-serif;
-}
-
-.socials-icon p {
-    margin: 15px 0;
-}
-
-form {
-    max-width: 500px;
-    background-color: #1c1e2a;
-}
-
-hr {
-    border: 1px solid white;
-}
-
-form input, form textarea {
-    background-color: transparent !important;
-}
-
-form label {
-    color: white !important;
-}

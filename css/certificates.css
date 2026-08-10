@@ -1,0 +1,86 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image: radial-gradient(circle, #406295, #374a6f, #2b334b, #1c1e2a, #070708);
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+/* navbar */
+.navbar {
+    background-color: #1c1e2a;
+}
+
+.icon {
+    color: white;
+}
+
+.offcanvas-end {
+    width: 250px !important;
+    background-color: rgba(32, 33, 37, 0.36);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.mobile-nav {
+    color: white;
+}
+
+.mobile-nav a:hover {
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+
+/* certificates */
+.card {
+    transition: transform 0.3s ease;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card-title {
+    font-size: 13px;
+}
+
+.card-detail p {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+}
+
+/* footer */
+footer {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Desktop view */
+@media (min-width: 991px) {
+    h3 {
+        font-size: 40px;
+    }
+
+    /* certificates */
+    .card-detail p {
+        font-size: 13px !important;
+    }
+
+    .card-title {
+    font-size: 15px !important;
+    }
+}

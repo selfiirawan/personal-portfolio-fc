@@ -151,13 +151,6 @@ hr {
 }
 
 /* contact */
-#contact .container, #contact .col, .form-floating, form, .content {
-    /* border: 1px solid white; */
-}
-
-#contact .col {
-}
-
 #contact h2 {
     font-size: 35px;
     font-family: "Playfair Display", sans-serif;
